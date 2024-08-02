@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(135deg, #4b182c, #5729d6);
+  color: #fff;
+  min-height: 100vh;
+}
+.container {
+  max-width: 900px;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 15px;
+}
+td {
+  font-weight: bold;
+}
+h1,
+h2 {
+  color: #d4a5ff;
+}
+.nav-pills .nav-link {
+  color: #fff;
+  margin: 0 5px 10px 0;
+  transition: all 0.3s ease;
+}
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-weight: bold;
+}
+.nav-pills .nav-link {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 7px;
+}
+.table {
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+}
+.list-group-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.head-title {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4px 0;
+  border-radius: 30px;
+}
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
